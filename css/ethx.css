@@ -1,0 +1,49 @@
+@font-face{
+  font-family:'Open Sans Light';
+  src:url('../fonts/OpenSans-Light.ttf');
+}
+body{
+  background:#2c2e43;
+  font-family: 'Open Sans Light', sans-serif;
+  color:white;
+}
+html,body{
+  height:100%;
+}
+a{
+  color:inherit;
+}
+p{
+  padding:0px 20px;
+}
+.wrapper{
+  position:absolute;
+  width:100%;
+}
+.content{
+  max-width:900px;
+  margin:auto;
+  margin-top:2em;
+}
+.col{
+  width:50%;
+  box-sizing:border-box;
+  float:left;
+}
+.row{
+  clear:both;
+}
+.header, .sign-off{
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .col{
+    padding:0;
+    width:auto;
+  }
+  .sign-off{
+    text-align: left;
+  }
+}
+
+
